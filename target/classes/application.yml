@@ -1,0 +1,17 @@
+app:
+  candidate:
+    name: "Nikhil Jangid"
+    regNo: "22BCB7101"
+    email: "nikhil.22bcb7101@vitapstudent.ac.in"
+  # If the submission API expects "Bearer <token>", set this to true.
+  # The challenge statement shows just the raw token, so default is false.
+  submission:
+    useBearerPrefix: false
+
+endpoints:
+  generate: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+
+# timeouts (optional)
+spring:
+  main:
+    web-application-type: none
